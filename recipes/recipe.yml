@@ -6,8 +6,8 @@ name: bazzite-nvidia-deck-t2
 description: This is my personal OS image.
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: ghcr.io/ublue-os/bazzite-deck-nvidia
-image-version: latest # You can pin to a specific version of Fedora as well
+base-image: ghcr.io/ublue-os/bazzite-deck-nvidia-stable-live-amd64
+image-version: stable # You can pin to a specific version of Fedora as well
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
